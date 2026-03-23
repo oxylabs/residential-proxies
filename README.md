@@ -1,5 +1,5 @@
 # Residential Proxies
-[![residential-proxies](https://github.com/oxylabs/residential-proxies/blob/main/residential-proxies-banner.png)](https://oxylabs.io/products/residential-proxy-pool)
+[![residential-proxies](https://github.com/oxylabs/residential-proxies/blob/master/residential-proxies-banner.PNG)](https://oxylabs.io/products/residential-proxy-pool)
 
 [![](https://dcbadge.limes.pink/api/server/Pds3gBmKMH?style=for-the-badge&theme=discord)](https://discord.gg/Pds3gBmKMH) [![YouTube](https://img.shields.io/badge/YouTube-Oxylabs-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@oxylabs)
 
@@ -20,53 +20,50 @@
 - [Learn More](#learn-more)
 - [Contact Us](#contact-us)
 
-This repository provides a technical overview of how Oxylabs [Residential Proxies](https://oxylabs.io/products/residential-proxy-pool) work, their core capabilities, and how to use advanced filtering for scraping and data collection workflows.
+Welcome to the official repository overview for Oxylabs' [Residential Proxies](https://oxylabs.io/products/residential-proxy-pool) This guide provides a technical overview of how our residential proxies work, their core features, and how to implement advanced filtering to optimize your web scraping infrastructure.
 
 ## What are Residential Proxies?
 
-Residential proxies route your internet traffic through an intermediary server that uses an IP address provided by an Internet Service Provider (ISP) and assigned to a real physical device, such as a desktop computer or mobile phone.
+Residential proxies route your internet traffic through an intermediary server that uses an IP address provided by an Internet Service Provider (ISP) to a real, physical device (such as a desktop computer or a mobile phone).
 
 Residential IPs belong to legitimate users. This makes them highly trusted by target servers, allowing developers to extract public data without triggering CAPTCHAs or IP blocks.
 
+
 ### How the Proxy Pool Works
 
-When your scraper sends a request through the network, it connects to a central Oxylabs gateway. The gateway automatically assigns an available IP address from a continuously updated global pool of real devices.
-
+When your scraper sends a request through our network, it connects to a central Oxylabs gateway. The gateway then automatically assigns an available IP address from our continuously updated global pool of real devices.
 Developers can configure the gateway to:
-
-- **Rotate IPs** by assigning a new IP address for each concurrent request
-- **Maintain sticky sessions** by keeping the same IP address for a specified duration, which is useful for multi-step flows or login-based tasks
+- **Rotate IPs:** Assign a new IP address for every single concurrent request.
+- **Maintain Sticky Sessions:** Keep the same IP address for a specified duration (up to 24 hours), which is essential for navigating multi-step forms or complex login flows.
 
 ### Core Features
 
-To support enterprise-level data extraction, Residential Proxies are built around these technical capabilities:
+To provide the best residential proxies for enterprise-level data extraction, our infrastructure is built around these technical pillars:
 
-- **Vast proxy pool** with millions of ethically sourced, real-device IPs worldwide
-- **Precise geo-targeting** down to country, state, city, or ASN level
-- **Flexible session control** with per-request rotation or sticky sessions
-- **Advanced fingerprint filtering** for operating systems such as Windows, macOS, Android, and others
-- **IP version selection** for IPv4 or IPv6 routing
-- **Unlimited concurrent sessions** for large-scale scraping workloads
-- **Stable gateway and port model** through a single endpoint: `pr.oxylabs.io`
-- **Multi-protocol support** for HTTP, HTTPS, and SOCKS5
-- **Flexible authentication** through username/password or IP whitelisting
-- **Centralized management** through the Oxylabs dashboard
+- **Vast proxy pool:** Access millions of ethically sourced, real-device IPs worldwide
+- **Precise geo-targeting:** Filter requests down to the country, state, city, or specific ASN level
+- **Flexible session control:** Choose between per-request IP rotation or sticky sessions (up to 24 hours)
+- **Advanced fingerprint filtering:** Specify operating systems (Windows, macOS, Android, etc.)
+- **IP version selection:** Choose between IPv4/IPv6 to match target requirements
+- **Unlimited concurrent sessions:** Scale your scraping operations without artificial connection limits
+- **Stable gateway and port model:** Connect via a single endpoint `pr.oxylabs.io` without managing individual IP lists
+- **Multi-protocol support:** `HTTP`, `HTTPS`, and `SOCKS5`
+- **Flexible authentication:** Credentials (username/password) or IP whitelisting
+- **Centralized management:** Track usage, manage sub-users, and configure limits via the Oxylabs dashboard
 
 ### Advanced Filtering Features
 
-Residential Proxies support additional filters that help improve success rates on protected targets.
+To maximize success rates on strictly protected targets, Oxylabs allows developers to pass specific parameters to the proxy gateway.
 
-#### IP Version (IPv4 / IPv6)
+#### 1. IP Version (IPv4 / IPv6)
 
-Depending on the target server's supported protocols, the proxy pool can be filtered to route requests only through IPv4 or IPv6 addresses.
+Depending on your target server's supported protocols, you can filter the proxy pool to route requests exclusively through IPv4 or IPv6 addresses.
+Read more in our [IP version documentation](https://developers.oxylabs.io/proxies/residential-proxies/advanced-features/ip-version).
 
-Read more in the [IP version documentation](https://developers.oxylabs.io/proxies/residential-proxies/advanced-features/ip-version).
+#### 2. Platform (OS) Selection
 
-#### Platform (OS) Selection
-
-You can specify the operating system of the proxy peer. Supported platforms include Android, iOS, Windows, macOS, and Linux.
-
-Matching the proxy OS with your scraper's TCP, HTTP, or browser fingerprint helps reduce detection risk on targets protected by advanced anti-bot systems.
+You can specify the operating system of the proxy peer. Supported platforms include: Android, iOS, Windows, macOS, Linux.
+Why this matters: Matching the proxy's OS with your scraper's TCP and HTTP/browser fingerprints is crucial for bypassing advanced anti-bot systems. Aligning the OS selection with your scraper's fingerprint significantly improves success rates.
 
 Read more in the [Platform (OS) documentation](https://developers.oxylabs.io/proxies/residential-proxies/advanced-features/platform-os).
 
@@ -76,7 +73,7 @@ Residential Proxies use a backconnect gateway instead of a static IP list. Each 
 
 ### Basic Setup Flow
 
-1. **Purchase a proxy plan.** Access the global residential IP pool through the dashboard.
+1. **Purchase a proxy plan.** Access the global residential IP pool directly from the dashboard.
 2. **Create proxy credentials.** Generate a username and password in the [Oxylabs dashboard](https://dashboard.oxylabs.io/en/).
 3. **Send a test request.** Route traffic through the gateway and the rotating port:
 
@@ -91,21 +88,22 @@ The sample request above consists of:
 - **Credentials:** `customer-USERNAME:PASSWORD` where the `customer-` prefix is mandatory
 - **Request target:** `https://ip.oxylabs.io/location`
 
-If the request is successful, the response will display a random residential IP address from the global pool. Port `7777` rotates IPs automatically, while ports in the `10000-100000` range can be used for sticky sessions.
+If the request is successful, the response will display a random residential IP address from the global pool. Since port `7777` is used for rotation, a new IP address will be assigned for every subsequent request. To maintain the same IP for up to 24 hours (sticky session), ports can be changed to the `10000-100000` range (e.g., `10001`, `10002`, etc.).
+
 
 ### Proxy List and Port Mapping
 
-Residential proxy access details are available in the Oxylabs dashboard. Because this product uses a backconnect gateway rather than a fixed IP list, the main connection parameters are:
+Residential proxy connection details can be directly accessed in the Oxylabs dashboard. Since residential proxies utilize a backconnect gateway rather than a static list of IPs, the connection parameters consist of:
 
 | Column | Description |
 |--------|-------------|
 | Entry point | The backconnect gateway used to access the proxy pool, for example `pr.oxylabs.io` |
 | Port | The port that defines the session behavior |
-| Country | The geographic location targeted dynamically through username parameters |
-| ISP (ASN) | The provider or ASN targeted dynamically through username parameters |
-| Assigned IP | A dynamic residential IP assigned after a successful connection |
+| Country | The geographic location targeted dynamically by appending parameters to the username |
+| ISP (ASN) | The specific provider or ASN targeted dynamically by appending parameters to the username |
+| Assigned IP | A dynamic residential IP assigned from the global pool upon a successful connection |
 
-Users can also manage sub-users, track traffic usage, and generate endpoints programmatically through the API. For more details, refer to the [Residential Proxies documentation](https://developers.oxylabs.io/proxies/residential-proxies).
+Users can also manage sub-users, track traffic usage, and generate proxy endpoints programmatically via the RESTful API. For more details, refer to the official [Residential Proxies documentation](https://developers.oxylabs.io/proxies/residential-proxies).
 
 ### Available Protocols
 
@@ -123,10 +121,12 @@ Residential Proxies support the following protocols:
 
 Residential Proxies support two primary authentication methods:
 
-- **Username and password** passed in the proxy URL or request configuration
-- **IP whitelisting** by adding your server's public IP address in the dashboard
+- **Username and password** pPass your credentials directly within your request headers or proxy URL string (e.g., `customer-username:password@pr.oxylabs.io:7777`).
+- **IP whitelisting** Add your server's public IP address to your Oxylabs dashboard. Once whitelisted, any requests originating from that IP will be automatically authenticated without needing a username and password.
 
 ## Residential Proxies vs Other Proxy Types
+
+Understanding the difference between proxy types is crucial for optimizing your scraping pipeline's cost and success rate. Here is how the best residential proxies compare to other solutions:
 
 | Feature | Residential Proxies | Datacenter Proxies | ISP Proxies |
 |---------|----------------------|--------------------|-------------|
@@ -140,17 +140,17 @@ Residential Proxies support two primary authentication methods:
 
 Residential Proxies are best suited for:
 
-- **Public data collection** on highly protected websites such as travel, classifieds, or real estate platforms
-- **Ad verification** for checking localized placements, compliance, and fraud signals
-- **Market research and e-commerce** for gathering localized pricing, availability, and review data
+- **Public data collection:** Scrape highly protected targets, such as flight aggregators or real estate listings, without being blocked.
+- **Ad verification:** Check localized ad placements, ensure compliance, and detect fraud by viewing pages exactly as a real user in that specific region would.
+- **Market research and e-commerce:** Gather accurate, localized pricing, product availability, and customer reviews from global markets to inform competitive pricing models.
 
 ## Fair Usage Policy
 
 To maintain network quality for all users, the service operates under a Fair Usage Policy:
 
-- **Bandwidth-based billing** measured by transferred data volume in GB
-- **Unlimited concurrent sessions** without artificial connection limits
-- **Ethical usage requirements** aligned with the Oxylabs Acceptable Use Policy
+- **Bandwidth-based billing:** Strictly measured by the amount of data transferred (GB).
+- **Unlimited concurrent sessions:** No limits on your concurrent connections.
+- **Ethical usage requirements:** All proxies must be used in accordance with Oxylabs Acceptable Use Policy. Illegal activities, credential stuffing, or DDoS attacks are strictly prohibited and will result in immediate termination.
 
 ## Learn More
 
