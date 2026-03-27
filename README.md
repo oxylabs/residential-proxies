@@ -1,5 +1,5 @@
 # Residential Proxies
-[![residential-proxies](https://github.com/oxylabs/residential-proxies/blob/master/residential-proxies-banner.PNG)](https://oxylabs.io/products/residential-proxy-pool)
+[![residential-proxies](https://raw.githubusercontent.com/oxylabs/residential-proxies/refs/heads/master/residential-proxies-banner%20new.png)](https://oxylabs.io/products/residential-proxy-pool)
 
 [![](https://dcbadge.limes.pink/api/server/Pds3gBmKMH?style=for-the-badge&theme=discord)](https://discord.gg/Pds3gBmKMH) [![YouTube](https://img.shields.io/badge/YouTube-Oxylabs-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@oxylabs)
 
