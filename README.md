@@ -113,6 +113,7 @@ Residential Proxies support the following protocols:
 |----------|-----------------|
 | HTTP | `curl -x http://pr.oxylabs.io:7777 -U customer-USERNAME:PASSWORD https://ip.oxylabs.io/location` |
 | HTTPS | `curl -x https://pr.oxylabs.io:7777 -U customer-USERNAME:PASSWORD https://ip.oxylabs.io/location` |
+| HTTP/3 | `socks.pr.oxylabs.io:7777` [custom implementations](https://github.com/oxylabs/gohttp3viaSOCKS5UDP) may be required to run the requests|
 | SOCKS5 (`TCP` and `UDP`) | `curl -x socks5h://pr.oxylabs.io:7777 -U customer-USERNAME:PASSWORD https://ip.oxylabs.io/location` |
 
 **Note:** Make sure that the libraries or third-party tools you use are compatible with `HTTPS` and `SOCKS5`.
