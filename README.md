@@ -50,6 +50,7 @@ To provide the best residential proxies for enterprise-level data extraction, ou
 - **Multi-protocol support:** `HTTP`, `HTTPS`, and `SOCKS5`
 - **Flexible authentication:** Credentials (username/password) or IP whitelisting
 - **Centralized management:** Track usage, manage sub-users, and configure limits via the Oxylabs dashboard
+- **Session control:** Supports sticky sessions for workflows where IP consistency matters
 
 ### Advanced Filtering Features
 
