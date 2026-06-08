@@ -64,7 +64,7 @@ Read more in our [IP version documentation](https://developers.oxylabs.io/proxie
 #### 2. Platform (OS) Selection
 
 You can specify the operating system of the proxy peer. Supported platforms include: Android, iOS, Windows, macOS, Linux.
-Why this matters: Matching the proxy's OS with your scraper's TCP and HTTP/browser fingerprints is crucial for bypassing advanced anti-bot systems. Aligning the OS selection with your scraper's fingerprint significantly improves success rates.
+Why this matters: Matching the proxy's OS with your scraper's TCP and HTTP/browser fingerprints is crucial for managing advanced automated request systems. Aligning the OS selection with your scraper's fingerprint significantly improves success rates.
 
 Read more in the [Platform (OS) documentation](https://developers.oxylabs.io/proxies/residential-proxies/advanced-features/platform-os).
 
