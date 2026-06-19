@@ -59,14 +59,14 @@ To maximize success rates on strictly protected targets, Oxylabs allows develope
 #### 1. IP Version (IPv4 / IPv6)
 
 Depending on your target server's supported protocols, you can filter the proxy pool to route requests exclusively through IPv4 or IPv6 addresses.
-Read more in our [IP version documentation](https://developers.oxylabs.io/proxies/residential-proxies/advanced-features/ip-version).
+Read more in our [IP version documentation](https://developers.oxylabs.io/products/proxies/residential-proxies/advanced-filters/ip-version).
 
 #### 2. Platform (OS) Selection
 
 You can specify the operating system of the proxy peer. Supported platforms include: Android, iOS, Windows, macOS, Linux.
 Why this matters: Matching the proxy's OS with your scraper's TCP and HTTP/browser fingerprints is crucial for managing advanced automated request systems. Aligning the OS selection with your scraper's fingerprint significantly improves success rates.
 
-Read more in the [Platform (OS) documentation](https://developers.oxylabs.io/proxies/residential-proxies/advanced-features/platform-os).
+Read more in the [Platform (OS) documentation](https://developers.oxylabs.io/products/proxies/residential-proxies/advanced-filters/platform-os).
 
 ## How Residential Proxies Work
 
@@ -104,7 +104,7 @@ Residential proxy connection details can be directly accessed in the Oxylabs das
 | ISP (ASN) | The specific provider or ASN targeted dynamically by appending parameters to the username |
 | Assigned IP | A dynamic residential IP assigned from the global pool upon a successful connection |
 
-Users can also manage sub-users, track traffic usage, and generate proxy endpoints programmatically via the RESTful API. For more details, refer to the official [Residential Proxies documentation](https://developers.oxylabs.io/proxies/residential-proxies).
+Users can also manage sub-users, track traffic usage, and generate proxy endpoints programmatically via the RESTful API. For more details, refer to the official [Residential Proxies documentation](https://developers.oxylabs.io/products/proxies/residential-proxies).
 
 ### Available Protocols
 
@@ -159,7 +159,7 @@ To maintain network quality for all users, the service operates under a Fair Usa
 For detailed configuration, advanced usage, and multi-language code examples, check these official pages:
 
 - [Get started with Residential Proxies](https://oxylabs.io/products/residential-proxy-pool)
-- [Residential Proxies documentation](https://developers.oxylabs.io/proxies/residential-proxies)
+- [Residential Proxies documentation](https://developers.oxylabs.io/products/proxies/residential-proxies)
 - [Third-party integration guide](https://developers.oxylabs.io/proxies/integration-guides/3rd-party-integrations)
 
 ## Contact Us
