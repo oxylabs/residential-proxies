@@ -1,7 +1,7 @@
 # Residential Proxies
-[![residential-proxies](https://raw.githubusercontent.com/oxylabs/residential-proxies/refs/heads/master/residential-proxies-banner%20new.png)](https://oxylabs.io/products/residential-proxy-pool)
+[![residential-proxies](https://raw.githubusercontent.com/oxylabs/residential-proxies/refs/heads/master/residential-proxies-banner%20new.png)](https://oxylabs.io/products/residential-proxy-pool?utm_source=github&utm_medium=referral&utm_content=residential-proxies&utm_campaign=banner&groupid=877)
 
-<a href="https://oxylabs.io"><img src="https://img.shields.io/badge/🚀_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
+<a href="https://oxylabs.io/?utm_source=github&utm_medium=referral&utm_content=residential-proxies&utm_campaign=banner&groupid=877"><img src="https://img.shields.io/badge/🚀_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
 <a href="https://developers.oxylabs.io"><img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
 <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/📊_Dashboard-2EA44F?style=for-the-badge" alt="Dashboard"></a>
 <a href="https://discord.gg/Pds3gBmKMH"><img src="https://img.shields.io/badge/💬_Discord-5865F2?style=for-the-badge" alt="Discord"></a>
@@ -24,7 +24,7 @@
 - [Learn More](#learn-more)
 - [Contact Us](#contact-us)
 
-Welcome to the official repository overview for Oxylabs' [Residential Proxies](https://oxylabs.io/products/residential-proxy-pool) This guide provides a technical overview of how our residential proxies work, their core features, and how to implement advanced filtering to optimize your web scraping infrastructure.
+Welcome to the official repository overview for Oxylabs' [Residential Proxies](https://oxylabs.io/products/residential-proxy-pool?utm_source=github&utm_medium=referral&utm_content=residential-proxies&groupid=877) This guide provides a technical overview of how our residential proxies work, their core features, and how to implement advanced filtering to optimize your web scraping infrastructure.
 
 ## What are Residential Proxies?
 
@@ -165,7 +165,7 @@ To maintain network quality for all users, the service operates under a Fair Usa
 
 For detailed configuration, advanced usage, and multi-language code examples, check these official pages:
 
-- [Get started with Residential Proxies](https://oxylabs.io/products/residential-proxy-pool)
+- [Get started with Residential Proxies](https://oxylabs.io/products/residential-proxy-pool?utm_source=github&utm_medium=referral&utm_content=residential-proxies&groupid=877)
 - [Residential Proxies documentation](https://developers.oxylabs.io/products/proxies/residential-proxies)
 - [Third-party integration guide](https://developers.oxylabs.io/proxies/integration-guides/3rd-party-integrations)
 
