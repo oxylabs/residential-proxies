@@ -2,7 +2,7 @@
 [![residential-proxies](https://raw.githubusercontent.com/oxylabs/residential-proxies/refs/heads/master/residential-proxies-banner%20new.png)](https://oxylabs.io/products/residential-proxy-pool?utm_source=github&utm_medium=referral&utm_content=residential-proxies&utm_campaign=banner&groupid=877)
 
 <a href="https://oxylabs.io/?utm_source=github&utm_medium=referral&utm_content=residential-proxies&utm_campaign=banner&groupid=877"><img src="https://img.shields.io/badge/🚀_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
-<a href="https://developers.oxylabs.io"><img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
+<a href="https://developers.oxylabs.io/?utm_source=github&utm_medium=referral&utm_content=residential-proxies&utm_campaign=banner&groupid=877"><img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
 <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/📊_Dashboard-2EA44F?style=for-the-badge" alt="Dashboard"></a>
 <a href="https://discord.gg/Pds3gBmKMH"><img src="https://img.shields.io/badge/💬_Discord-5865F2?style=for-the-badge" alt="Discord"></a>
 <a href="https://www.youtube.com/@oxylabs"><img src="https://img.shields.io/badge/▶️_YouTube-FF0000?style=for-the-badge" alt="YouTube"></a>
@@ -63,14 +63,14 @@ To maximize success rates on strictly protected targets, Oxylabs allows develope
 #### 1. IP Version (IPv4 / IPv6)
 
 Depending on your target server's supported protocols, you can filter the proxy pool to route requests exclusively through IPv4 or IPv6 addresses.
-Read more in our [IP version documentation](https://developers.oxylabs.io/products/proxies/residential-proxies/advanced-filters/ip-version).
+Read more in our [IP version documentation](https://developers.oxylabs.io/products/proxies/residential-proxies/advanced-filters/ip-version?utm_source=github&utm_medium=referral&utm_content=residential-proxies&groupid=877).
 
 #### 2. Platform (OS) Selection
 
 You can specify the operating system of the proxy peer. Supported platforms include: Android, iOS, Windows, macOS, Linux.
 Why this matters: Matching the proxy's OS with your scraper's TCP and HTTP/browser fingerprints is crucial for managing advanced automated request systems. Aligning the OS selection with your scraper's fingerprint significantly improves success rates.
 
-Read more in the [Platform (OS) documentation](https://developers.oxylabs.io/products/proxies/residential-proxies/advanced-filters/platform-os).
+Read more in the [Platform (OS) documentation](https://developers.oxylabs.io/products/proxies/residential-proxies/advanced-filters/platform-os?utm_source=github&utm_medium=referral&utm_content=residential-proxies&groupid=877).
 
 ## How Residential Proxies Work
 
@@ -108,7 +108,7 @@ Residential proxy connection details can be directly accessed in the Oxylabs das
 | ISP (ASN) | The specific provider or ASN targeted dynamically by appending parameters to the username |
 | Assigned IP | A dynamic residential IP assigned from the global pool upon a successful connection |
 
-Users can also manage sub-users, track traffic usage, and generate proxy endpoints programmatically via the RESTful API. For more details, refer to the official [Residential Proxies documentation](https://developers.oxylabs.io/products/proxies/residential-proxies).
+Users can also manage sub-users, track traffic usage, and generate proxy endpoints programmatically via the RESTful API. For more details, refer to the official [Residential Proxies documentation](https://developers.oxylabs.io/products/proxies/residential-proxies?utm_source=github&utm_medium=referral&utm_content=residential-proxies&groupid=877).
 
 ### Available Protocols
 
@@ -166,8 +166,8 @@ To maintain network quality for all users, the service operates under a Fair Usa
 For detailed configuration, advanced usage, and multi-language code examples, check these official pages:
 
 - [Get started with Residential Proxies](https://oxylabs.io/products/residential-proxy-pool?utm_source=github&utm_medium=referral&utm_content=residential-proxies&groupid=877)
-- [Residential Proxies documentation](https://developers.oxylabs.io/products/proxies/residential-proxies)
-- [Third-party integration guide](https://developers.oxylabs.io/proxies/integration-guides/3rd-party-integrations)
+- [Residential Proxies documentation](https://developers.oxylabs.io/products/proxies/residential-proxies?utm_source=github&utm_medium=referral&utm_content=residential-proxies&groupid=877)
+- [Third-party integration guide](https://developers.oxylabs.io/proxies/integration-guides/3rd-party-integrations?utm_source=github&utm_medium=referral&utm_content=residential-proxies&groupid=877)
 
 ## Contact Us
 
